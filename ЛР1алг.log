@@ -1,0 +1,15 @@
+2026-02-20 19:58:28,035 - INFO - Расстояние Левенштейна между 'карандаш' и 'ручка': 6
+2026-02-20 19:58:28,035 - INFO - fuzz.ratio (одинаковые): 100, время: 0.00мс
+2026-02-20 19:58:28,035 - INFO - fuzz.ratio (с кавычками): 100, время: 0.00мс
+2026-02-20 19:58:28,035 - INFO - fuzz.partial_ratio (одинаковые): 100, время: 0.00мс
+2026-02-20 19:58:28,035 - INFO - fuzz.partial_ratio (подстрока): 100, время: 0.10мс
+2026-02-20 19:58:28,036 - INFO - fuzz.partial_ratio (регистр): 90, время: 0.05мс
+2026-02-20 19:58:28,036 - INFO - fuzz.token_sort_ratio (перестановка): 100, время: 0.04мс
+2026-02-20 19:58:28,036 - INFO - fuzz.token_sort_ratio (лишнее слово): 78, время: 0.02мс
+2026-02-20 19:58:28,036 - INFO - fuzz.token_sort_ratio (с числами): 100, время: 0.02мс
+2026-02-20 19:58:28,036 - INFO - fuzz.token_set_ratio (повторы): 100, время: 0.02мс
+2026-02-20 19:58:28,036 - INFO - fuzz.WRatio (знаки препинания): 100, время: 0.02мс
+2026-02-20 19:58:28,036 - INFO - fuzz.WRatio (запятая): 97, время: 0.03мс
+2026-02-20 19:58:28,037 - INFO - process.extract (Саратов): [('Саратов', 100), ('Самара', 62)], время: 0.52мс
+2026-02-20 19:58:28,040 - INFO - process.extract в namesosat: [('fhsdfsddfasfsjdsfdLkfsdf\n', 45), ('sdlkfnsdkjfsdklfsd\n', 45), ('jkfsdjkcjdscsdkjc\n', 45), ('sjksdsjkvsdjkcfsdjkc\n', 34), ('nkljsdckasjcs', 34)], время: 0.45мс
+2026-02-20 19:58:28,040 - INFO - process.extract в namerec: [('ekf\n', 60), ('fdndefnhwelfjhlskdekjfn\n', 56), ('sdkljfnksdfnsdeklnseLk\n', 56), ('lГ¦kwfnjvlkdnvkasmfj\n', 56), ('ckasefn, jkdncvksd', 56)], время: 0.41мс

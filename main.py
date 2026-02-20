@@ -39,13 +39,6 @@ print(f'как далеки {str_1} и {str_2}?', result)
 
 # fuzz_examples.py
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='fuzzy.log',
-    filemode='w'
-)
-
 # Простое сравнение
 start = time.time()
 a = fuzz.ratio('Привет мир', 'Привет мир')
@@ -124,13 +117,6 @@ a = process.extract('Саратов', city, limit=2)
 end = time.time()
 logging.info(f"process.extract (Саратов): {a}, время: {(end-start)*1000:.2f}мс")
 print(a)
-
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='names_comparison.log',
-    filemode='w'
-)
 
 doc1 = open("namesosat")
 lines1 = doc1.readlines()
